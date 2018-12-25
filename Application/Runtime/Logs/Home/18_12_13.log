@@ -1,0 +1,1806 @@
+[ 2018-12-13T01:15:39+08:00 ] 127.0.0.1 /teamcenter/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.040113s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.037977s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000745s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.041000s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000559s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000515s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.001499s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.043372s ]
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000519s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.294844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.294963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002626s ]
+
+[ 2018-12-13T01:15:44+08:00 ] 127.0.0.1 /teamcenter/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2018-12-13T01:15:44+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2018-12-13T01:15:47+08:00 ] 127.0.0.1 /teamcenter/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2018-12-13T01:15:47+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002198s ]
+
+[ 2018-12-13T01:15:52+08:00 ] 127.0.0.1 /TeamCenter/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.031593s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.022755s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000449s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.022403s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000503s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000525s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000687s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.022929s ]
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000421s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.218176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.218263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2018-12-13T01:15:54+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002050s ]
+
+[ 2018-12-13T01:16:04+08:00 ] 127.0.0.1 /TeamCenter/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001935s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.029042s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.021072s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000367s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.020866s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000402s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000363s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000592s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.021412s ]
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000343s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.254472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.254562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001742s ]
+
+[ 2018-12-13T01:19:00+08:00 ] 127.0.0.1 /teamcenter/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.019612s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.014409s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000306s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.015222s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000311s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000278s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000497s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.019467s ]
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000460s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.264516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.264621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002184s ]
+
+[ 2018-12-13T01:19:09+08:00 ] 127.0.0.1 /teamcenter/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.029136s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.019658s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000395s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.022143s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000461s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000469s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000710s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.029781s ]
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000747s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.275126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.275251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001886s ]
+
+[ 2018-12-13T01:19:42+08:00 ] 127.0.0.1 /teamcenter//Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002954s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003411s ]
+
+[ 2018-12-13T01:19:42+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004567s ]
+
+[ 2018-12-13T01:19:46+08:00 ] 127.0.0.1 /teamcenter/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2018-12-13T01:19:46+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2018-12-13T01:19:55+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2018-12-13T01:19:58+08:00 ] 127.0.0.1 /teamcenter/Home/res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_res_class` [ RunTime:0.079382s ]
+SQL: SELECT * FROM `ahgfrx_res_class` ORDER BY id  [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_res` [ RunTime:0.039219s ]
+SQL: SELECT * FROM `ahgfrx_res` ORDER BY id desc LIMIT 0,30   [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.270174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.270333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001743s ]
+
+[ 2018-12-13T01:19:59+08:00 ] 127.0.0.1 /teamcenter/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001462s ]
+
+[ 2018-12-13T01:19:59+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2018-12-13T01:20:10+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/login?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.022732s ]
+SQL: SELECT * FROM `ahgfrx_user` WHERE `email` = '001@mail.com' LIMIT 1   [ RunTime:0.000847s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.204130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.204253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002398s ]
+
+[ 2018-12-13T01:20:14+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.024603s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.018433s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=1 )  [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.019334s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=1 )  [ RunTime:0.013611s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=1 AND admin=1 )  [ RunTime:0.000474s ]
+DEBUG: (class_id = 1) OR (project_id = 1 OR project_id = 3)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) OR (project_id = 1 OR project_id = 3) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000533s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) OR (project_id = 1 OR project_id = 3) ) LIMIT 1   [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.028142s ]
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inbox_alert` [ RunTime:0.061683s ]
+SQL: SELECT `numb` FROM `ahgfrx_inbox_alert` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000516s ]
+SQL: SELECT `numb` FROM `ahgfrx_inbox_alert` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000449s ]
+SQL: SELECT `username` FROM `ahgfrx_user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000444s ]
+SQL: SELECT `name` FROM `ahgfrx_project` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000444s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.248493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.248572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002044s ]
+
+[ 2018-12-13T01:20:22+08:00 ] 127.0.0.1 /TeamCenter/Home/Res.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002992s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_res_class` [ RunTime:0.042981s ]
+SQL: SELECT * FROM `ahgfrx_res_class` ORDER BY id  [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_res` [ RunTime:0.032537s ]
+SQL: SELECT * FROM `ahgfrx_res` ORDER BY id desc LIMIT 0,30   [ RunTime:0.000768s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inbox_alert` [ RunTime:0.021727s ]
+SQL: SELECT `numb` FROM `ahgfrx_inbox_alert` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000756s ]
+SQL: SELECT `numb` FROM `ahgfrx_inbox_alert` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000524s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.287057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.287223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001929s ]
+
+[ 2018-12-13T01:20:25+08:00 ] 127.0.0.1 /TeamCenter/Home/Talk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_talk_class` [ RunTime:0.059665s ]
+SQL: SELECT * FROM `ahgfrx_talk_class` ORDER BY id  [ RunTime:0.000657s ]
+SQL: SELECT * FROM `ahgfrx_talk_class` WHERE ( display=1 ) ORDER BY id  [ RunTime:0.000506s ]
+ERR: 1054:Unknown column 'display' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_talk_class` WHERE ( display=1 ) ORDER BY id 
+SQL: SHOW COLUMNS FROM `ahgfrx_talk` [ RunTime:0.029297s ]
+SQL: SELECT * FROM `ahgfrx_talk` WHERE ( project_id=0 ) ORDER BY id desc LIMIT 0,30   [ RunTime:0.000860s ]
+SQL: SELECT * FROM `ahgfrx_talk_class` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.000471s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inbox_alert` [ RunTime:0.020526s ]
+SQL: SELECT `numb` FROM `ahgfrx_inbox_alert` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000482s ]
+SQL: SELECT `numb` FROM `ahgfrx_inbox_alert` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.020834s ]
+SQL: SELECT `username` FROM `ahgfrx_user` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.000717s ]
+SQL: SELECT `name` FROM `ahgfrx_talk_class` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000688s ]
+SQL: SELECT `username` FROM `ahgfrx_user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000430s ]
+SQL: SELECT `name` FROM `ahgfrx_talk_class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000436s ]
+SQL: SELECT `username` FROM `ahgfrx_user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000432s ]
+SQL: SELECT `name` FROM `ahgfrx_talk_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000451s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_talk` LIMIT 1   [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.357091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.357174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001785s ]
+
+[ 2018-12-13T01:20:31+08:00 ] 127.0.0.1 /TeamCenter/Home/Talk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_talk_class` [ RunTime:0.023226s ]
+SQL: SELECT * FROM `ahgfrx_talk_class` ORDER BY id  [ RunTime:0.000391s ]
+SQL: SELECT * FROM `ahgfrx_talk_class` WHERE ( display=1 ) ORDER BY id  [ RunTime:0.000400s ]
+ERR: 1054:Unknown column 'display' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_talk_class` WHERE ( display=1 ) ORDER BY id 
+SQL: SHOW COLUMNS FROM `ahgfrx_talk` [ RunTime:0.016977s ]
+SQL: SELECT * FROM `ahgfrx_talk` WHERE ( project_id=0 ) ORDER BY id desc LIMIT 0,30   [ RunTime:0.000841s ]
+SQL: SELECT * FROM `ahgfrx_talk_class` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inbox_alert` [ RunTime:0.025216s ]
+SQL: SELECT `numb` FROM `ahgfrx_inbox_alert` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000502s ]
+SQL: SELECT `numb` FROM `ahgfrx_inbox_alert` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.019103s ]
+SQL: SELECT `username` FROM `ahgfrx_user` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.000497s ]
+SQL: SELECT `name` FROM `ahgfrx_talk_class` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000424s ]
+SQL: SELECT `username` FROM `ahgfrx_user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000447s ]
+SQL: SELECT `name` FROM `ahgfrx_talk_class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000428s ]
+SQL: SELECT `username` FROM `ahgfrx_user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000425s ]
+SQL: SELECT `name` FROM `ahgfrx_talk_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000447s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_talk` LIMIT 1   [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.275402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.275474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2018-12-13T01:20:33+08:00 ] 127.0.0.1 /TeamCenter/Home/Talka
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+ERR: 无法加载控制器:Talka
+
+[ 2018-12-13T01:20:36+08:00 ] 127.0.0.1 /TeamCenter/Home/Talk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_talk_class` [ RunTime:0.022788s ]
+SQL: SELECT * FROM `ahgfrx_talk_class` ORDER BY id  [ RunTime:0.000452s ]
+SQL: SELECT * FROM `ahgfrx_talk_class` WHERE ( display=1 ) ORDER BY id  [ RunTime:0.000329s ]
+ERR: 1054:Unknown column 'display' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_talk_class` WHERE ( display=1 ) ORDER BY id 
+SQL: SHOW COLUMNS FROM `ahgfrx_talk` [ RunTime:0.017627s ]
+SQL: SELECT * FROM `ahgfrx_talk` WHERE ( project_id=0 ) ORDER BY id desc LIMIT 0,30   [ RunTime:0.000698s ]
+SQL: SELECT * FROM `ahgfrx_talk_class` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.000386s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inbox_alert` [ RunTime:0.019598s ]
+SQL: SELECT `numb` FROM `ahgfrx_inbox_alert` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000479s ]
+SQL: SELECT `numb` FROM `ahgfrx_inbox_alert` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.019095s ]
+SQL: SELECT `username` FROM `ahgfrx_user` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.000520s ]
+SQL: SELECT `name` FROM `ahgfrx_talk_class` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000420s ]
+SQL: SELECT `username` FROM `ahgfrx_user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000438s ]
+SQL: SELECT `name` FROM `ahgfrx_talk_class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000421s ]
+SQL: SELECT `username` FROM `ahgfrx_user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000423s ]
+SQL: SELECT `name` FROM `ahgfrx_talk_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000438s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_talk` LIMIT 1   [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.274611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.274690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2018-12-13T01:20:41+08:00 ] 127.0.0.1 /TeamCenter/Home/User/people.html/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001818s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.039364s ]
+SQL: SELECT * FROM `ahgfrx_user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_res` [ RunTime:0.028534s ]
+SQL: SELECT * FROM `ahgfrx_res` WHERE ( uid=1 ) ORDER BY id desc  [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_talk` [ RunTime:0.028292s ]
+SQL: SELECT * FROM `ahgfrx_talk` WHERE ( uid=1 ) ORDER BY id desc  [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.027882s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=1 ) ORDER BY id desc  [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.028855s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=1 ) ORDER BY admin desc  [ RunTime:0.000750s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inbox_alert` [ RunTime:0.028280s ]
+SQL: SELECT `numb` FROM `ahgfrx_inbox_alert` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000580s ]
+SQL: SELECT `numb` FROM `ahgfrx_inbox_alert` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000565s ]
+NOTIC: [8] Undefined variable: pagecon D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\fc7a126913bcfb8906c258603de6080f.php 第 117 行.
+SQL: SHOW COLUMNS FROM `ahgfrx_talk_class` [ RunTime:0.025635s ]
+SQL: SELECT `name` FROM `ahgfrx_talk_class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000705s ]
+SQL: SELECT `name` FROM `ahgfrx_talk_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000678s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.336827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.336937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001907s ]
+
+[ 2018-12-13T01:20:59+08:00 ] 127.0.0.1 /TeamCenter/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.025948s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.015843s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=1 )  [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.015970s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=1 )  [ RunTime:0.000430s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=1 AND admin=1 )  [ RunTime:0.000354s ]
+DEBUG: (class_id = 1) OR (project_id = 1 OR project_id = 3)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) OR (project_id = 1 OR project_id = 3) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000445s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) OR (project_id = 1 OR project_id = 3) ) LIMIT 1   [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.017945s ]
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inbox_alert` [ RunTime:0.022868s ]
+SQL: SELECT `numb` FROM `ahgfrx_inbox_alert` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000546s ]
+SQL: SELECT `numb` FROM `ahgfrx_inbox_alert` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000598s ]
+SQL: SELECT `username` FROM `ahgfrx_user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000706s ]
+SQL: SELECT `name` FROM `ahgfrx_project` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000710s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.208710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.208783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001608s ]
+
+[ 2018-12-13T01:21:13+08:00 ] 127.0.0.1 /TeamCenter/Home/team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+ERR: 无法加载控制器:Team
+
+[ 2018-12-13T01:21:18+08:00 ] 127.0.0.1 /TeamCenter/Home/team/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.041989s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_talk_class` [ RunTime:0.032463s ]
+SQL: SELECT * FROM `ahgfrx_talk_class` ORDER BY id  [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project_team_talk` [ RunTime:0.114927s ]
+SQL: SELECT * FROM `ahgfrx_project_team_talk` WHERE ( pid=1 ) ORDER BY id desc  [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project_team_duty` [ RunTime:0.110702s ]
+SQL: SELECT * FROM `ahgfrx_project_team_duty` WHERE ( pid=1 ) ORDER BY id desc  [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project_team_duty_details` [ RunTime:0.084758s ]
+SQL: SELECT * FROM `ahgfrx_project_team_duty_details` WHERE ( pid=1 AND touid=1 ) ORDER BY id desc  [ RunTime:0.000966s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.038724s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=1 AND pid=1 ) LIMIT 1   [ RunTime:0.000742s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inbox_alert` [ RunTime:0.021025s ]
+SQL: SELECT `numb` FROM `ahgfrx_inbox_alert` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000450s ]
+SQL: SELECT `numb` FROM `ahgfrx_inbox_alert` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000429s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.408363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.408464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2018-12-13T01:21:43+08:00 ] 127.0.0.1 /TeamCenter/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002707s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.043455s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002039s ]
+
+[ 2018-12-13T01:21:44+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2018-12-13T01:21:44+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001359s ]
+
+[ 2018-12-13T01:21:49+08:00 ] 127.0.0.1 /TeamCenter/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.021433s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.014543s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000261s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.015739s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000320s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000322s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000530s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.024048s ]
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000525s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.250002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.250103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2018-12-13T01:22:18+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001765s ]
+
+[ 2018-12-13T01:22:32+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002418s ]
+
+[ 2018-12-13T01:22:36+08:00 ] 127.0.0.1 /TeamCenter/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001772s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.041549s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.028178s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000513s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.029039s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000490s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000497s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000820s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.029047s ]
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000518s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.282089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.282203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001827s ]
+
+[ 2018-12-13T01:22:42+08:00 ] 127.0.0.1 /TeamCenter/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+
+[ 2018-12-13T01:23:17+08:00 ] 127.0.0.1 /TeamCenter/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2018-12-13T01:23:17+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001683s ]
+
+[ 2018-12-13T01:23:29+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/login?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+
+[ 2018-12-13T01:23:48+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/login?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001026s ]
+
+[ 2018-12-13T01:23:51+08:00 ] 127.0.0.1 /TeamCenter/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002546s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002465s ]
+
+[ 2018-12-13T01:23:52+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002837s ]
+
+[ 2018-12-13T01:25:06+08:00 ] 127.0.0.1 /TeamCenter/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.031456s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.031663s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000597s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.029741s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000505s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000544s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000933s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.041216s ]
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000531s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.299485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.299610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002649s ]
+
+[ 2018-12-13T01:25:07+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001711s ]
+
+[ 2018-12-13T01:25:12+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/login.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001228s ]
+
+[ 2018-12-13T01:25:15+08:00 ] 127.0.0.1 /TeamCenter/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2018-12-13T01:25:15+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001347s ]
+
+[ 2018-12-13T01:26:45+08:00 ] 127.0.0.1 /TeamCenter/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002879s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001868s ]
+
+[ 2018-12-13T01:26:45+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002337s ]
+
+[ 2018-12-13T01:28:08+08:00 ] 127.0.0.1 /TeamCenter/Home/User/people/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found D:\phpStudy\PHPTutorial\WWW\TeamCenter\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.031050s ]
+NOTIC: [8] Undefined index: uid D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Home\Controller\UserController.class.php 第 144 行.
+SQL: SELECT * FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000637s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ahgfrx_res` [ RunTime:0.015311s ]
+NOTIC: [8] Undefined index: uid D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Home\Controller\UserController.class.php 第 145 行.
+SQL: SELECT * FROM `ahgfrx_res` WHERE ( uid=%d ) ORDER BY id desc  [ RunTime:0.000297s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) ORDER BY id desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_res` WHERE ( uid=%d ) ORDER BY id desc 
+SQL: SHOW COLUMNS FROM `ahgfrx_talk` [ RunTime:0.015018s ]
+NOTIC: [8] Undefined index: uid D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Home\Controller\UserController.class.php 第 146 行.
+SQL: SELECT * FROM `ahgfrx_talk` WHERE ( uid=%d ) ORDER BY id desc  [ RunTime:0.000374s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) ORDER BY id desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_talk` WHERE ( uid=%d ) ORDER BY id desc 
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.017948s ]
+NOTIC: [8] Undefined index: uid D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Home\Controller\UserController.class.php 第 147 行.
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) ORDER BY id desc  [ RunTime:0.000426s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) ORDER BY id desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) ORDER BY id desc 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.028308s ]
+NOTIC: [8] Undefined index: uid D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Home\Controller\UserController.class.php 第 148 行.
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) ORDER BY admin desc  [ RunTime:0.000568s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) ORDER BY admin desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) ORDER BY admin desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Undefined variable: pagecon D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\fc7a126913bcfb8906c258603de6080f.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.272765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.272932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002378s ]
+
+[ 2018-12-13T01:28:08+08:00 ] 127.0.0.1 /TeamCenter/Home/User/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found D:\phpStudy\PHPTutorial\WWW\TeamCenter\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002388s ]
+ERR: 非法操作:Home
+
+[ 2018-12-13T01:28:22+08:00 ] 127.0.0.1 /TeamCenter/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found D:\phpStudy\PHPTutorial\WWW\TeamCenter\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001298s ]
+
+[ 2018-12-13T01:28:28+08:00 ] 127.0.0.1 /TeamCenter/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found D:\phpStudy\PHPTutorial\WWW\TeamCenter\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002934s ]
+
+[ 2018-12-13T01:28:33+08:00 ] 127.0.0.1 /TeamCenter/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found D:\phpStudy\PHPTutorial\WWW\TeamCenter\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002954s ]
+
+[ 2018-12-13T01:28:33+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found D:\phpStudy\PHPTutorial\WWW\TeamCenter\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2018-12-13T01:28:39+08:00 ] 127.0.0.1 /TeamCenter/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.019054s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.013369s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000234s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.014317s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000338s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000284s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000441s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.018589s ]
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000373s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.199738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.199822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001729s ]
+
+[ 2018-12-13T01:28:39+08:00 ] 127.0.0.1 /TeamCenter/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found D:\phpStudy\PHPTutorial\WWW\TeamCenter\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001843s ]
+
+[ 2018-12-13T01:28:39+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found D:\phpStudy\PHPTutorial\WWW\TeamCenter\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2018-12-13T01:28:43+08:00 ] 127.0.0.1 /TeamCenter/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.022327s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.013210s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000243s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.011692s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000360s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000351s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000624s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.014929s ]
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000319s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.191364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.191436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001749s ]
+
+[ 2018-12-13T01:28:59+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found D:\phpStudy\PHPTutorial\WWW\TeamCenter\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2018-12-13T01:29:10+08:00 ] 127.0.0.1 /TeamCenter/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.031670s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.020270s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000443s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.027089s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000496s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000545s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000857s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.031329s ]
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000570s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.290713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.290818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2018-12-13T01:29:38+08:00 ] 127.0.0.1 /TeamCenter/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.031931s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.041566s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000579s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.030542s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000553s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000546s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000860s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.031843s ]
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000556s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.291636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.291748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001564s ]
+
+[ 2018-12-13T01:30:01+08:00 ] 127.0.0.1 /TeamCenter/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2018-12-13T01:30:01+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001450s ]
+
+[ 2018-12-13T01:30:05+08:00 ] 127.0.0.1 /TeamCenter/Home/aaa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2018-12-13T01:30:05+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2018-12-13T01:30:07+08:00 ] 127.0.0.1 /TeamCenter/Home/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载控制器:Aa
+
+[ 2018-12-13T01:30:16+08:00 ] 127.0.0.1 /TeamCenter/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.024530s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.013446s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000257s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.014588s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000331s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000314s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000466s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.015542s ]
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000233s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.166347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.166394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2018-12-13T01:30:16+08:00 ] 127.0.0.1 /TeamCenter/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found D:\phpStudy\PHPTutorial\WWW\TeamCenter\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2018-12-13T01:30:16+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found D:\phpStudy\PHPTutorial\WWW\TeamCenter\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001527s ]
+
+[ 2018-12-13T01:30:24+08:00 ] 127.0.0.1 /TeamCenter/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.020181s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.012468s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000229s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.013902s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000235s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000204s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000335s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.013920s ]
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000216s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2018-12-13T01:30:24+08:00 ] 127.0.0.1 /TeamCenter/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2018-12-13T01:30:24+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2018-12-13T01:37:06+08:00 ] 127.0.0.1 /TeamCenter/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001478s ]
+
+[ 2018-12-13T01:37:07+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2018-12-13T01:37:11+08:00 ] 127.0.0.1 /TeamCenter/Home/Talk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_talk_class` [ RunTime:0.059207s ]
+SQL: SELECT * FROM `ahgfrx_talk_class` ORDER BY id  [ RunTime:0.000842s ]
+SQL: SELECT * FROM `ahgfrx_talk_class` WHERE ( display=1 ) ORDER BY id  [ RunTime:0.000557s ]
+ERR: 1054:Unknown column 'display' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_talk_class` WHERE ( display=1 ) ORDER BY id 
+SQL: SHOW COLUMNS FROM `ahgfrx_talk` [ RunTime:0.033095s ]
+SQL: SELECT * FROM `ahgfrx_talk` WHERE ( project_id=0 ) ORDER BY id desc LIMIT 0,30   [ RunTime:0.001025s ]
+SQL: SELECT * FROM `ahgfrx_talk_class` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.000646s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.023825s ]
+SQL: SELECT `username` FROM `ahgfrx_user` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.000611s ]
+SQL: SELECT `name` FROM `ahgfrx_talk_class` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000578s ]
+SQL: SELECT `username` FROM `ahgfrx_user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000599s ]
+SQL: SELECT `name` FROM `ahgfrx_talk_class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000654s ]
+SQL: SELECT `username` FROM `ahgfrx_user` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000675s ]
+SQL: SELECT `name` FROM `ahgfrx_talk_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000521s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_talk` LIMIT 1   [ RunTime:0.000502s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.336527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.336642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001634s ]
+
+[ 2018-12-13T01:37:11+08:00 ] 127.0.0.1 /TeamCenter/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2018-12-13T01:37:11+08:00 ] 127.0.0.1 /TeamCenter/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001878s ]
+
+[ 2018-12-13T01:38:40+08:00 ] 127.0.0.1 /TeamCenter/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.019816s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.014239s ]
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000266s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.015334s ]
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000329s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000317s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000507s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.019453s ]
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000389s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.255464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.255575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001755s ]
+

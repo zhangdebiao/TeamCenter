@@ -1,0 +1,169 @@
+[ 2018-11-29T22:17:57+08:00 ] 127.0.0.1 /teamcenter/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015181s ]
+NOTIC: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) D:\phpStudy\PHPTutorial\WWW\TeamCenter\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php 第 44 行.
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2018-11-29T22:19:39+08:00 ] 127.0.0.1 /teamcenter/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.009862s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_inform' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ahgfrx_inform`
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.003593s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ahgfrx_project`
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000194s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.004087s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_project_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ahgfrx_project_member`
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000172s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000142s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000444s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_inform' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30  
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000321s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_inform' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.003757s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ahgfrx_user`
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000165s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2018-11-29T22:19:49+08:00 ] 127.0.0.1 /teamcenter/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.010307s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_inform' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ahgfrx_inform`
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.003706s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ahgfrx_project`
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000196s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.003574s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_project_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ahgfrx_project_member`
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000190s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000144s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000317s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_inform' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30  
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000300s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_inform' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.005310s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ahgfrx_user`
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000187s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2018-11-29T22:21:30+08:00 ] 127.0.0.1 /teamcenter/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `ahgfrx_inform` [ RunTime:0.008674s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_inform' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ahgfrx_inform`
+SQL: SHOW COLUMNS FROM `ahgfrx_project` [ RunTime:0.003625s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ahgfrx_project`
+SQL: SELECT * FROM `ahgfrx_project` WHERE ( uid=%d )  [ RunTime:0.000187s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project` WHERE ( uid=%d ) 
+SQL: SHOW COLUMNS FROM `ahgfrx_project_member` [ RunTime:0.005084s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_project_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ahgfrx_project_member`
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d )  [ RunTime:0.000185s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d ) 
+SQL: SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 )  [ RunTime:0.000159s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d AND admin=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_project_member` WHERE ( uid=%d AND admin=1 ) 
+DEBUG: (class_id = 1)
+SQL: SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30   [ RunTime:0.000358s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_inform' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) ORDER BY cid desc LIMIT 0,30  
+SQL: SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1   [ RunTime:0.000338s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_inform' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ahgfrx_inform` WHERE ( (class_id = 1) ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ahgfrx_user` [ RunTime:0.003647s ]
+ERR: 1146:Table 'ahgfrx.ahgfrx_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ahgfrx_user`
+SQL: SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1   [ RunTime:0.000181s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `admin` FROM `ahgfrx_user` WHERE ( uid=%d ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+NOTIC: [8] Undefined variable: inform_count D:\phpStudy\PHPTutorial\WWW\TeamCenter\Application\Runtime\Cache\Home\5f8cd486e46ca9e27770556a0e5e75a8.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
